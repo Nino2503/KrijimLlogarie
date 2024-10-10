@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+
+<h2>Dashboard</h2>
+<div>
+    <p>Total Income: @Model.TotalIncome</p>
+	<p>Total Expenses: @Model.TotalExpenses</p>
+	<p>Balance: @Model.Balance</p>
+</div>
+<div class = "container">
+    <h2>Financat e tua</h2>
+	<div class="row">
+	    <div class="col-md-6">
+		    <h4>Të Ardhura</h4>
+			<p>@Model.TotalIncome</p>
+		</div>
+		<div class="col-md-6">
+		    <h4>Shpenzime</h4>
+			<p>@Model.TotalExpenses</p>
+		</div>
+	</div>
+	<div class="row">
+	    <h4>Bilanci: @Model.Balance</h4>
+	</div>
+</div>
+</div>
+   
