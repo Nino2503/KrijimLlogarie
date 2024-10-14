@@ -85,7 +85,7 @@ public class FinanceManager
     }
     private void AddExpense()
     {
-        Console.WriteLine("Shkruani shumvn e shpenzimeve: ");
+        Console.WriteLine("Shkruani shumën e shpenzimeve: ");
         decimal amount = Convert.ToDecimal(Console.ReadLine());
         Console.Write("Jepni përshkrimin: ");
         string description = Console.ReadLine();
